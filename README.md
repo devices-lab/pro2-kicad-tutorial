@@ -1,4 +1,4 @@
-# PCB design walkthrough with KiCad workshop
+# PCB design walk-through with KiCad
 
 ![Front render of the solder:bit Gamepad PCB](./renders/front.png)
 
