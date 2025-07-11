@@ -1,31 +1,31 @@
 # PCB design walkthrough with KiCad workshop
 
-![Front render of the solder:bit Gamepad PCB](/renders/front.png "A render of the solder:bit Gamepad version of the board")
+![Front render of the solder:bit Gamepad PCB](./renders/front.png)
 
-## Tasks
+## Workshop activity
 
-You are given the task of extending the solder:bit Gamepad boards with more NeoPixels. A design review has highlighted that we need more blinking lights than the 5x5 LED matrix on the micro:bit can supply!
+You are given the task to complete the solder:bit Gamepad design with the remaining **tactile buttons** and **NeoPixels**.
 
-1. Download the existing design files by cloning this repository.
-2. Get familiar with the NeoPixel (WS2812B) datasheet and the exisiting schematic for version 0.5.
-3. Open up KiCad, and begin with the Schematic Editor - adding symbols, assiginging footprints, adding values, etc.
-4. Move onto the PCB Editor and import the changes from the schematic - moving footprints, routing, zone filling, DRC, etc.
-5. Build a bill of materials (BOM) and a set of Gerber fabrication files for the next workshop!
-6. Use Git for version control of your KiCad project.
+1. Download or clone this repository.
+2. In the [kicad](./kicad/) directory open project file `solderbit-gamepad.kicad_pro`, and begin with the Schematic Editor - follow the instructions in the red boxes to add the missing symbols.
+3. Open the PCB Editor and update the changes from the schematic - move the footprints, route the components, fill zones, check DRCs, etc.
+4. Generate Gerber files and the bill of materials (BOM) ready for manufacturing!
 
-![KiCad 8.0 Schematic Editor preview](/renders/media/schematic_editor.png)
-![KiCad 8.0 PCB Editor preview](/renders/media/pcb_editor.png)
+> Don’t worry if you don’t manage to get all the steps here completed! This activity is intended as a fun learning experience, introducing you to the world of PCB design.
 
-Don’t worry if you don’t manage to get all the steps here completed, as we also supply a set of completed production files (BOM and Gerber files) in the same repository which can be used for the next session.
+## Useful resources
 
-## Handy web links
-
-- [solder:bit Gamepad repository](https://github.com/devices-lab/solderbit-gamepad)
-- [KiCad 8.0 documentation](https://docs.kicad.org/8.0/en/)
-- [Git cheat sheet](https://education.github.com/git-cheat-sheet-education.pdf)
+- [solder:bit Gamepad](https://github.com/devices-lab/solderbit-gamepad) repository
+- [KiCad 9.0 ](https://docs.kicad.org/9.0/en/) documentation
 
 ## Credits
 
-Thanks to [Dr John Vidler](https://github.com/JohnVidler) and [Aron Eggens](https://github.com/mac-aron), the Computing and Communications departement at Lancaster University, and everyone at the [Devices Lab](https://github.com/devices-lab).
+Thanks to [Dr John Vidler](https://github.com/JohnVidler), Lancaster Univeristy [Devices Lab](https://github.com/devices-lab), and everyone at [pro² network+](https://prosquared.org/).
 
-![Rear render of the solder:bit Gamepad](/renders/back.png "A render of the solder:bit Gamepad version of the board")
+## License
+
+This project is licensed under the GNU General Public License (GPL), version 3. This license allows you to use, modify, and redistribute the solder:bit Gamepad and any derivative works, but all such derivatives must also be licensed under the GPL.
+
+The GPL ensures that all modifications and improvements to the solder:bit Gamepad remain free and open for the public benefit. By using this project, you agree to abide by its terms and conditions.
+
+For more details on the license, please see the [LICENSE](/LICENSE) file included in this repository.
