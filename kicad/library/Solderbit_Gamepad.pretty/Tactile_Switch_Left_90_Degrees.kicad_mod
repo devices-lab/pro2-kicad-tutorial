@@ -1,12 +1,12 @@
 (footprint "Tactile_Switch_Left_90_Degrees"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -1.5 0)
 		(layer "F.SilkS")
-		(uuid "5076292d-f3a7-4812-846f-0ad489f9e5d4")
+		(uuid "413d2f93-bc30-4a92-8930-c1f33bbf6499")
 		(effects
 			(font
 				(face "Segoe UI This")
@@ -70,7 +70,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "19f489f0-33a0-404e-8943-0199ec408bd0")
+		(uuid "c092cb70-5d70-4ba9-8dc6-f11b011c444c")
 		(effects
 			(font
 				(size 1 1)
@@ -83,7 +83,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7c49035a-07b9-4f70-aae1-c441cf85111b")
+		(uuid "1a265c1e-1428-470f-8568-42295767a918")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -96,7 +96,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "6feeebf2-b379-492a-bcd4-4acb241a2ec4")
+		(uuid "ed3fa751-ea87-4881-8fcb-795ffc4517d8")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -109,7 +109,7 @@
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "58ff68e1-0586-414a-8f68-6c5660050df2")
+		(uuid "f56bca40-79d1-4bce-8adf-df04db6fa02b")
 		(effects
 			(font
 				(size 1 1)
@@ -119,6 +119,7 @@
 	)
 	(solder_mask_margin 0.038)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.75 -3)
 		(end -2.75 -1)
@@ -127,7 +128,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "14bec9d1-1ac9-4ed8-9a63-c8d18d239934")
+		(uuid "6c3e734a-fde9-41a4-bc43-92a5a0ef49d2")
 	)
 	(fp_line
 		(start 2.75 -3)
@@ -137,7 +138,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "cbece232-2500-4084-8be0-8d430bafdda1")
+		(uuid "334b0683-4c4f-4326-8562-565daaa7c865")
 	)
 	(fp_poly
 		(pts
@@ -149,7 +150,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "7d873aeb-1bfc-4d66-84a9-1388cadaf04a")
+		(uuid "37aa8941-401d-4d5e-b114-579148e1a25f")
 	)
 	(fp_rect
 		(start -5.6 -3.8)
@@ -160,7 +161,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "84f04bbe-3c43-4c97-9deb-fd620e63202a")
+		(uuid "44310b84-ec9a-44f0-839b-ad4d4dc2c9fb")
 	)
 	(fp_circle
 		(center 1.15 1.47)
@@ -171,12 +172,12 @@
 		)
 		(fill yes)
 		(layer "F.Fab")
-		(uuid "bb719134-b35f-4d92-875f-585425399308")
+		(uuid "b14a8ee7-035e-4887-8805-2778e7c6262b")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "ea659d83-ff67-40e8-a202-56fe085e4314")
+		(uuid "1ffb10e4-3bdf-4783-9fc0-482fd4047d6c")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -190,196 +191,168 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15625)
 		(thermal_bridge_angle 45)
-		(uuid "6befa6bf-19e1-4d2a-84f1-23953b62e101")
+		(uuid "cf867635-11fa-410c-beca-9e02bbda51b3")
 	)
 	(pad "" thru_hole oval
 		(at 0 -3)
 		(size 2.7 1.1)
-		(drill oval 2.2 0.6)
+		(drill oval 2.2 0.6
+			(offset 0 0)
+		)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
-		(uuid "d7f448e8-81c8-419f-94ae-36120de97995")
+		(uuid "7b4b4dc3-e0d4-4222-a443-cad4e2b41048")
 		(padstack
 			(mode custom)
 			(layer "In1.Cu"
 				(shape oval)
 				(size 2.7 1.1)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In2.Cu"
 				(shape oval)
 				(size 2.7 1.1)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In3.Cu"
 				(shape oval)
 				(size 2.7 1.1)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In4.Cu"
 				(shape oval)
 				(size 2.7 1.1)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In5.Cu"
 				(shape oval)
 				(size 2.7 1.1)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In6.Cu"
 				(shape oval)
 				(size 2.7 1.1)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In7.Cu"
 				(shape oval)
 				(size 2.7 1.1)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In8.Cu"
 				(shape oval)
 				(size 2.7 1.1)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In9.Cu"
 				(shape oval)
 				(size 2.7 1.1)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In10.Cu"
 				(shape oval)
 				(size 2.7 1.1)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In11.Cu"
 				(shape oval)
 				(size 2.7 1.1)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In12.Cu"
 				(shape oval)
 				(size 2.7 1.1)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In13.Cu"
 				(shape oval)
 				(size 2.7 1.1)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In14.Cu"
 				(shape oval)
 				(size 2.7 1.1)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In15.Cu"
 				(shape oval)
 				(size 2.7 1.1)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In16.Cu"
 				(shape oval)
 				(size 2.7 1.1)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In17.Cu"
 				(shape oval)
 				(size 2.7 1.1)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In18.Cu"
 				(shape oval)
 				(size 2.7 1.1)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In19.Cu"
 				(shape oval)
 				(size 2.7 1.1)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In20.Cu"
 				(shape oval)
 				(size 2.7 1.1)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In21.Cu"
 				(shape oval)
 				(size 2.7 1.1)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In22.Cu"
 				(shape oval)
 				(size 2.7 1.1)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In23.Cu"
 				(shape oval)
 				(size 2.7 1.1)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In24.Cu"
 				(shape oval)
 				(size 2.7 1.1)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In25.Cu"
 				(shape oval)
 				(size 2.7 1.1)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In26.Cu"
 				(shape oval)
 				(size 2.7 1.1)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In27.Cu"
 				(shape oval)
 				(size 2.7 1.1)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In28.Cu"
 				(shape oval)
 				(size 2.7 1.1)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In29.Cu"
 				(shape oval)
 				(size 2.7 1.1)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In30.Cu"
 				(shape oval)
 				(size 2.7 1.1)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "B.Cu"
@@ -387,7 +360,6 @@
 				(size 2.7 2.1)
 				(offset 0 0.5)
 				(roundrect_rratio 0.2619047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 		)
@@ -398,7 +370,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15625)
 		(thermal_bridge_angle 45)
-		(uuid "99560254-890b-4b9e-864a-3dd4f5ba6e4a")
+		(uuid "e6abd43f-a724-445b-b7bf-3104b956dbde")
 	)
 	(pad "1" smd roundrect
 		(at 2.25 1.45 90)
@@ -406,7 +378,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1785714286)
 		(thermal_bridge_angle 45)
-		(uuid "bc18f90d-562b-4196-9f91-c55a43c91e6a")
+		(uuid "9c9b79ab-3a8c-48b6-a732-764291f7ef9c")
 	)
 	(pad "2" smd roundrect
 		(at -2.25 1.45 90)
@@ -414,7 +386,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1785714286)
 		(thermal_bridge_angle 45)
-		(uuid "a1669a2f-0e73-42fa-9947-87767442d310")
+		(uuid "f54a9d77-3f2e-47f0-b069-25b86d5ef19f")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/library/Solderbit_Gamepad.3dshapes/shoulder_button.step"

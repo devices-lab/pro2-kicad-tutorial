@@ -109,7 +109,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(aux_axis_origin 104.264719 47.164719)
 		(grid_origin 104.264719 47.164719)
 		(pcbplotparams
@@ -7701,7 +7700,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 0 1.82 270)
+			(at 0 1.82 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7d5da362-829e-4092-83a8-3ebcdc4519d9")
@@ -7865,7 +7864,7 @@
 			(uuid "98bc2614-bfe9-4440-89b7-9c142975a1ef")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "ff007bc7-349b-42fc-9167-224ac75f08bc")
 			(effects
@@ -21928,22 +21927,8 @@
 		)
 	)
 	(group ""
-		(uuid "08649cd2-80ca-4280-8228-399c8db0c082")
-		(members "4c13cd2a-4e92-44c5-835a-6d6c9bf73e00")
-	)
-	(group ""
-		(uuid "17066ccd-d6dd-4917-9cb7-b28932714957")
-		(members "08649cd2-80ca-4280-8228-399c8db0c082" "b40157e4-fef9-41ea-8de8-755f8fe48265")
-	)
-	(group ""
 		(uuid "6521a265-98ba-4f29-a56b-df15e324def2")
 		(members "072bff72-f630-45d5-a59f-45aee5ddd1b3")
-	)
-	(group ""
-		(uuid "7c2ffac2-3cc4-46dc-84ef-f0d674559a34")
-		(members "2f02a97f-9bb4-404e-9fe6-8457b0ea9c91" "41ae1d14-1379-4e78-b5fb-d016e5914abc"
-			"5efd8ef0-b5f1-4608-96cc-3408c2a53068" "aa5ed412-25f0-40bb-be19-84bf3713bc27"
-		)
 	)
 	(group ""
 		(uuid "7cd1dfc8-b860-4391-a23b-9afb484825d4")
