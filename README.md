@@ -14,8 +14,8 @@ The solder:bit Gamepad is a kit for learning to solder with surface-mount (SMT) 
 
    Add all the missing symbols and wire them up. For the list of missing parts, see the [section below](#what-components-are-missing). 
    
-   > [!TIP]
-   > The grey boxes in the schematic hint at which components are missing and need adding. 
+> [!TIP]
+> The grey boxes in the schematic hint at which components are missing and need adding. 
 
    ![KiCad Schematic Editor preview](./media/editor/schamatic.png "Preview of the solder:bit Gamepad schematic")
 
@@ -23,8 +23,8 @@ The solder:bit Gamepad is a kit for learning to solder with surface-mount (SMT) 
 
    Bring in your changes from the schematic, place component footprints, and route them with traces. 
 
-    > [!TIP]
-    > The placeholders on the `User.Drawings` layer to help you with positioning the footprints in the correct locations.
+> [!TIP]
+> The placeholders on the `User.Drawings` layer to help you with positioning the footprints in the correct locations.
 
    ![KiCad PCB Editor preview](./media/editor/layout.png "Preview of the solder:bit Gamepad PCB layout")
 
