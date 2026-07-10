@@ -17,7 +17,7 @@ The solder:bit Gamepad is a kit for learning to solder with surface-mount (SMT) 
 > [!TIP]
 > The grey boxes in the schematic hint at which components are missing and need adding.
 
-![KiCad Schematic Editor preview](./media/editor/schamatic.png "Preview of the solder:bit Gamepad schematic")
+![KiCad Schematic Editor preview](./media/editor/schematic.png "Preview of the solder:bit Gamepad schematic")
 
 4. Next, transition over to the PCB Editor <img src="./media/tutorial/layout_editor_icon.png" alt="KiCad PCB Editor" title="App icon of the KiCad PCB Editor" width="200" style="vertical-align: middle;">
 
