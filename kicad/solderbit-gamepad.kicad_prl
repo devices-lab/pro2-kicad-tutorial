@@ -21,7 +21,7 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": false,
+      "lockedItems": true,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -120,16 +120,16 @@
   "schematic": {
     "hierarchy_collapsed": [],
     "selection_filter": {
-      "graphics": false,
-      "images": false,
-      "labels": false,
+      "graphics": true,
+      "images": true,
+      "labels": true,
       "lockedItems": false,
-      "otherItems": false,
-      "pins": false,
-      "ruleAreas": false,
-      "symbols": false,
+      "otherItems": true,
+      "pins": true,
+      "ruleAreas": true,
+      "symbols": true,
       "text": true,
-      "wires": false
+      "wires": true
     }
   }
 }

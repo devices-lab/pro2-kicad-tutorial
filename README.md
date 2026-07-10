@@ -12,7 +12,7 @@ You are given the task to complete the solder:bit Gamepad design with the remain
 4. Generate Gerber files and the bill of materials (BOM) ready for manufacturing!
 
 > Don’t worry if you don’t manage to get all the steps here completed! This activity is intended as a fun learning experience, introducing you to the world of PCB design.
-
+w
 ## Useful resources
 
 - [solder:bit Gamepad](https://github.com/devices-lab/solderbit-gamepad) repository
