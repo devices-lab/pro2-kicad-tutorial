@@ -28,7 +28,7 @@ The solder:bit Gamepad is a kit for learning to solder with surface-mount (SMT) 
 
 ![KiCad PCB Editor preview](./media/editor/layout.png "Preview of the solder:bit Gamepad PCB layout")
 
-You can preview your PCB in 3D by pressing Alt+3 (or Option+3 on a Mac), or by going to `View` &#8594; `3D Viewer` in the PCB Editor.
+You can preview your PCB in 3D by pressing `Alt+3` (or `Option+3` on a Mac), or by going to `View` &#8594; `3D Viewer` in the PCB Editor.
 
 ![KiCad 3D Viewer preview](./media/editor/3d.png "Preview of the solder:bit Gamepad in 3D")
 
