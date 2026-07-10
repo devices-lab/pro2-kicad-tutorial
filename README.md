@@ -1,4 +1,4 @@
-# PCB design walk-through with KiCad
+# Practical tutorial: KiCad PCB design walk-through
 
 ![solder:bit Gamepad](./media/project/main.png "A render of an unfinished solder:bit Gamepad")
 
@@ -12,25 +12,25 @@ The solder:bit Gamepad is a kit for learning to solder with surface-mount (SMT) 
 2. Inside the [kicad](./kicad/) folder, open `solderbit-gamepad.kicad_pro`.
 3. Begin with the Schematic Editor <img src="./media/tutorial/schematic_editor_icon.png" alt="KiCad Schematic Editor Icon" title="App icon of the KiCad Schematic Editor" width="200" style="vertical-align: middle;">
 
-   Add all the missing symbols and wire them up. For the list of missing parts, see the [section below](#what-components-are-missing). 
-   
-> [!TIP]
-> The grey boxes in the schematic hint at which components are missing and need adding. 
+   Add all the missing symbols and wire them up. For the list of missing parts, see the [section below](#what-components-are-missing).
 
-   ![KiCad Schematic Editor preview](./media/editor/schamatic.png "Preview of the solder:bit Gamepad schematic")
+> [!TIP]
+> The grey boxes in the schematic hint at which components are missing and need adding.
+
+![KiCad Schematic Editor preview](./media/editor/schamatic.png "Preview of the solder:bit Gamepad schematic")
 
 4. Next, transition over to the PCB Editor <img src="./media/tutorial/layout_editor_icon.png" alt="KiCad PCB Editor" title="App icon of the KiCad PCB Editor" width="200" style="vertical-align: middle;">
 
-   Bring in your changes from the schematic, place component footprints, and route them with traces. 
+   Bring in your changes from the schematic, place component footprints, and route them with traces.
 
 > [!TIP]
 > The placeholders on the `User.Drawings` layer to help you with positioning the footprints in the correct locations.
 
-   ![KiCad PCB Editor preview](./media/editor/layout.png "Preview of the solder:bit Gamepad PCB layout")
+![KiCad PCB Editor preview](./media/editor/layout.png "Preview of the solder:bit Gamepad PCB layout")
 
-   You can preview your PCB in 3D by pressing Alt+3 (or Option+3 on a Mac), or by going to `View` &#8594; `3D Viewer` in the PCB Editor.
+You can preview your PCB in 3D by pressing Alt+3 (or Option+3 on a Mac), or by going to `View` &#8594; `3D Viewer` in the PCB Editor.
 
-   ![KiCad 3D Viewer preview](./media/editor/3d.png "Preview of the solder:bit Gamepad in 3D")
+![KiCad 3D Viewer preview](./media/editor/3d.png "Preview of the solder:bit Gamepad in 3D")
 
 5. Generate fabrication files for manufacturing and export some nice renders of your device!
 
