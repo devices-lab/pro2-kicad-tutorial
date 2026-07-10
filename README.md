@@ -1,4 +1,4 @@
-# Practical tutorial: KiCad PCB design walk-through
+# KiCad PCB design walk-through
 
 ![solder:bit Gamepad](./media/project/main.png "A render of an unfinished solder:bit Gamepad")
 
