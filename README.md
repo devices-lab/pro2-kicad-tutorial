@@ -2,7 +2,7 @@
 
 ![solder:bit Gamepad](./media/project/main.png "A render of an unfinished solder:bit Gamepad")
 
-In this tutorial, your task is to complete the design of the solder:bit Gamepad! The design is missing several buttons, LEDs, and passive components (resistors and capacitors). Help @mac-aron finish the design before he sends it off to the PCB manufacturer!
+In this tutorial, your task is to complete the design of the solder:bit Gamepad! The design is missing several buttons, LEDs, and passive components (resistors and capacitors). Help us finish the design before we send it off to the PCB manufacturer!
 
 The solder:bit Gamepad is a kit for learning to solder with surface-mount (SMT) components. You can find out more about the solder:bit Gamepad in [this GitHub repository](https://github.com/devices-lab/solderbit-gamepad).
 
